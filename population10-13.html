@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BarChart</title>
+  
+    
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- D3.js CDN source -->
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body >
+ <div class="container">
+          <table id="sample" border="2px" >
+              <tr>
+                  <th>Country</th>
+                  <th>2010</th>
+                  <th>2011</th>
+                  <th>2012</th>
+                  <th>2013</th>
+                  <th></th>
+                  
+              </tr>
+          </table>
+         
+          <form method="post" >
+              <table id="add_item" border="0">
+                   <tr><td>Country</td><td><input type="text" id="Country" name="country"></td></tr>
+                   <tr><td>2010</td><td><input type="number" id="Population_2010" name="value"></td></tr>
+                   <tr><td>2011</td><td><input type="number" id="Population_2011" name="value"></td></tr>
+                   <tr><td>2012</td><td><input type="number" id="Population_2012" name="value"></td></tr>
+                   <tr><td>2013</td><td><input type="number" id="Population_2013" name="value"></td></tr>
+                   <tr><td>Edit</td><td><input type="button" value="Add" id="add_value" name="btnAdd"><td></tr>
+                </table>
+          </form>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+          <script src="stack_Population.js"></script>
+         
+    </div>
+ </body>
+</html>

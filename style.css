@@ -1,0 +1,60 @@
+svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: black;
+  padding-top: 50px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke:white;
+    shape-rendering: crispEdges;
+}
+
+.axis text{
+    font: Times;
+    font-size: 20px;
+    font-weight: bold;
+    transform: rotate(-60);
+    fill: white;
+}
+
+
+ 
+.legend {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size:15px;;
+    }
+
+    nav-tabs{
+      padding-right:20px;  
+
+    }
+
+
+    .col-md-6
+    {
+      padding-top: 40px;
+    }
+    table td,th{
+    padding: 5px;
+      width: 100px;
+    }
+    button{
+      background: grey;
+      color: white;
+    }
+
+/*.axis {
+  font: 10px sans-serif;
+  font-size: 10px;
+}
+
+.axis path,
+.axis line {
+  fill:none;
+  stroke: black;
+}*/
+
